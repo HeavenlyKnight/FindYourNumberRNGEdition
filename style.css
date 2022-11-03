@@ -1,0 +1,53 @@
+body {
+	background-image: url("background.png");
+	background-size:cover;
+	font: 125% "Comic Sans MS", "Comic Sans", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+.container {
+	background: rgba(255, 122, 89, .5);
+	margin: 20px auto;
+	height: 80%;
+	padding: 100px;
+	text-align: center;
+	width; 100%
+}
+
+.button {
+	padding: 8px 20px;
+	border-radius: 12px;
+	background-color: blue;
+	color: white;
+	border: 2px solid #00FFFF; /* Cyan */
+	transition-duration: 0.5s;
+}
+
+
+button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+}
+
+button:hover {
+background-color: white;
+color: black;
+}
+
+.vertical-align {
+	position: relative;
+	top: 50%
+}
